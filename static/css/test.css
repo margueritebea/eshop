@@ -1,0 +1,54 @@
+body {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	padding-bottom: 200px;
+}
+
+h1 {
+	text-align: center;
+	color: orange;
+	padding: ;
+}
+
+.list-produits {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 20px;
+}
+
+.produit {
+	width: 250px;
+	background-color: white;
+	text-align: center;
+	box-shadow: 10px 10px ;
+    box-shadow: 2px 2px 5px grey; /* Décalage x=2px, y=2px, flou=5px, couleur grise */
+    padding: 5PX;
+    text-align: center;
+    margin: 3PX;
+	overflow: hidden;
+}
+.banniere-img {
+	cover: fit;
+	width: 100%;
+	margin: auto;
+	/*height: 500px;*/
+}
+
+.prix {
+	font-style: italic;
+	color: orange;
+	font-weight: bold;
+}
+
+.btn-acheter {
+	display: inline-block;
+	background-color: orange;
+	color: white;
+	padding: 6px;
+	font-size: 15px;
+	border-radius: 5px;
+	width: 100px;
+	text-decoration: none;
+	/*text-align: center;*/
+}
