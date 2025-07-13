@@ -17,22 +17,27 @@ h1 {
  gap: 20px;
 }
 
+.banniere-img{
+	width: 100%;
+	margin: 5px auto;}
+	
 .produit {
 	width: 250px;
+	height: 350px;
 	background-color: white;
 	text-align: center;
 	box-shadow: 10px 10px ;
     box-shadow: 2px 2px 5px grey; /* Décalage x=2px, y=2px, flou=5px, couleur grise */
     padding: 5PX;
     text-align: center;
-    margin: 3PX;
+    margin: auto;
 	overflow: hidden;
 }
-.banniere-img {
-	cover: fit;
+.img-produit{
 	width: 100%;
-	margin: auto;
-	/*height: 500px;*/
+	margin: 5px auto;
+	height: 60%;
+	/*cover:fit;*/
 }
 
 .prix {
